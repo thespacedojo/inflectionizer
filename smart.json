@@ -1,0 +1,10 @@
+{
+  "name": "inflectionizer",
+  "description": "A package that helps with pluralize or singularize a word based on the actual count, inspired by Rails, for Meteor.js",
+  "homepage": "https://github.com/BeDifferential/inflectionizer",
+  "author": "Josh Owens (http://differential.io)",
+  "version": "0.1.0",
+  "git": "https://github.com/BeDifferential/inflectionizer.git",
+  "packages": {
+  }
+}
