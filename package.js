@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-  api.use(['handlebars'], 'client');
+  api.use(['ui'], 'client');
   api.add_files('inflection.js', 'client');
   api.add_files(['helper.js'], 'client');
 });
