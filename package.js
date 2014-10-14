@@ -1,9 +1,13 @@
 Package.describe({
-  summary: "A package that gives you all the inflection methods as Handlebar helpers"
+  summary: "A package that gives you all the inflection methods as Handlebar helpers",
+  version: '0.3.0',
+  name: "joshowens:inflectionizer",
+  git: 'https://github.com/MeteorClub/inflectionizer'
 });
 
-Package.on_use(function(api) {
+Package.onUse(function(api) {
+  api.versionsFrom("METEOR@0.9.0");
   api.use(['ui'], 'client');
-  api.add_files('inflection.js', 'client');
-  api.add_files(['helper.js'], 'client');
+  api.addFiles('inflection.js', 'client');
+  api.addFiles(['helper.js'], 'client');
 });
